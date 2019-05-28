@@ -18,7 +18,7 @@ $(function(){
         let irange = Math.floor(Math.random() * 10);
         let vgImg = vg.results[irange].urls.full;
         let urlLink = 'background-image: url(' + vgImg + ')'
-        let bodyImg = document.getElementsByTagName('body');
+        let bodyImg = document.getElementsByClassName('vgbody');
         console.log(bodyImg[0].setAttribute('style', urlLink)); //Need to be linked when this category's clicked
     });
 });
@@ -31,7 +31,7 @@ $(function(){
         let irange = Math.floor(Math.random() * 10);
         let gkImg = gk.results[irange].urls.full;
         let urlLink = 'background-image: url(' + gkImg + ')'
-        let bodyImg = document.getElementsByTagName('body');
+        let bodyImg = document.getElementsByClassName('gkbody');
         console.log(bodyImg[0].setAttribute('style', urlLink)); //Need to be linked when this category's clicked
     });
 });
@@ -44,7 +44,7 @@ $(function(){
         let irange = Math.floor(Math.random() * 10);
         let mxImg = mx.results[irange].urls.full;
         let urlLink = 'background-image: url(' + mxImg + ')'
-        let bodyImg = document.getElementsByTagName('body');
+        let bodyImg = document.getElementsByClassName('mxbody');
         console.log(bodyImg[0].setAttribute('style', urlLink)); //Need to be linked when this category's clicked
     });
 });
@@ -57,7 +57,7 @@ $(function(){
         let irange = Math.floor(Math.random() * 10);
         let hsImg = hs.results[irange].urls.full;
         let urlLink = 'background-image: url(' + hsImg + ')'
-        let bodyImg = document.getElementsByTagName('body');
+        let bodyImg = document.getElementsByClassName('hsbody');
         console.log(bodyImg[0].setAttribute('style', urlLink)); //Need to be linked when this category's clicked
     });
 });
@@ -70,7 +70,7 @@ $(function(){
         let irange = Math.floor(Math.random() * 10);
         let amImg = am.results[irange].urls.full;
         let urlLink = 'background-image: url(' + amImg + ')'
-        let bodyImg = document.getElementsByTagName('body');
+        let bodyImg = document.getElementsByClassName('ambody');
         console.log(bodyImg[0].setAttribute('style', urlLink)); //Need to be linked when this category's clicked
     });
 });
